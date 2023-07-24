@@ -12,4 +12,12 @@ def transform(X, a=1):
     result = np.array(result)
     return result
 
+# Отлично ) Ниже красивое решение повторяет алгоритм описанный в задании МФТИ.
+
+# def transform(X, a=1):
+#     Y = X.copy()
+#     Y[:, 1::2] = a
+#     Y[:, ::2] **= 3
+#     Y = Y[:, ::-1]
+#     return np.concatenate((X, Y), axis=1)
 
