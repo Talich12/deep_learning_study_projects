@@ -13,3 +13,9 @@ def no_numpy_mult(first, second):
 
 def numpy_mult(first, second):
     return first.dot(second)
+
+# отлично )
+#  еще можно было 
+
+# def numpy_mult(first, second):
+#     return np.dot(first, second)

@@ -26,3 +26,6 @@ elements, counts = run_length_encoding(arr)
 
 print('Elements:', elements)
 print('Counts:', counts)
+
+# отлично
+# еще были прикольные решения на форуме решений )
